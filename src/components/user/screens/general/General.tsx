@@ -5,16 +5,12 @@ import Grid from "@mui/material/Grid2";
 import { IUser } from "../../../../pages/User/types";
 import { FC } from "react";
 
-interface IGeneralUserProps {
+export interface IGeneralUserProps {
   user: IUser;
   onUpdate: (update: IUser) => void;
 }
 
-const General: FC<IGeneralUserProps> = ({
-  user,
-
-  onUpdate,
-}) => {
+const General: FC<IGeneralUserProps> = ({ user, onUpdate }) => {
   const handleUpdate = (id: string, value: string) => {
     onUpdate({
       ...user,
