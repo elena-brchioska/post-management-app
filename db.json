@@ -433,7 +433,7 @@
       "date": "2024-10-24"
     },
     {
-      "id": 1729773411129,
+      "id": "1729773411129",
       "title": "Test 4",
       "image": "https://fastly.picsum.photos/id/95/600/400.jpg?hmac=V93SD8TM_4rcfsb_w3bz9IoS-NkOtWwsH4mIfvqHvMM",
       "content": "Test 4 description",
@@ -444,14 +444,14 @@
   "user": {
     "userCard": {
       "name": "Elena Brchioska",
-      "role": "Administrator",
-      "emailCard": "elena@elena.com"
+      "role": "Guest",
+      "emailCard": "elena@elena522.com"
     },
     "general": {
-      "birthDate": "1993-10-23",
-      "jobTitle": "Front End Developer",
+      "company": "comp",
       "gender": "Female",
-      "company": "MAK-System"
+      "jobTitle": "test",
+      "birthDate": "2024-10-25"
     },
     "contact": {
       "email": "test@example.com",
